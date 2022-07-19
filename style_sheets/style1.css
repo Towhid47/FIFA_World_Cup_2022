@@ -1,0 +1,57 @@
+/*----------------- 
+          Common Styles
+----------------------- */
+*{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* top banner section style */
+header{
+    display:flex;
+    justify-content: center;
+}
+
+.top_banner{
+    background-color: #161616;
+    width: 1321px;
+    height: 665px;
+    border-radius: 30px;
+    margin-top: 31px;
+    display: flex;
+}
+.top_banner_heading{
+    padding-left: 100px;
+    width: 50%;
+}
+.top_banner_heading h1{
+        color: white;
+        font-size: 42px;
+        margin-top: 130px;
+}
+.top_banner_heading p{
+     color: white;
+     margin-right:70px ;
+
+}
+.top_banner_image{
+      width:50%;
+      padding-top:31px;
+      padding-right: 25px;
+}
+.top_banner_image img{
+    width: 100%;
+}
+
+button{
+    padding: 17px 56px;
+    font-weight:800;
+    margin-top: 30px;
+    font-size: 20px;
+    background: linear-gradient(darkred,red,darkred);
+    color: white;
+    border: none;
+    border-radius: 9px;
+}
+
