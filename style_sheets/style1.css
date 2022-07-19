@@ -6,6 +6,22 @@
     font-family: 'Poppins', sans-serif;
 }
 
+button{
+    padding: 17px 56px;
+    font-weight:800;
+    margin-top: 30px;
+    font-size: 20px;
+    background-color:darkred;
+    color: white;
+    border: none;
+    border-radius: 9px;
+}
+button:hover{
+      background-color: maroon;
+      box-shadow: 5px 7px 10px red;
+}
+
+
 
 /* top banner section style */
 header{
@@ -44,14 +60,19 @@ header{
     width: 100%;
 }
 
-button{
-    padding: 17px 56px;
-    font-weight:800;
-    margin-top: 30px;
-    font-size: 20px;
-    background: linear-gradient(darkred,red,darkred);
-    color: white;
-    border: none;
-    border-radius: 9px;
+/* --------------------------- 
+            spinning ball 
+---------------------------*/
+
+.ball{
+    position: absolute;
+    left: 800px;
+    bottom: 350px;
+    transition: transform 5s linear;
 }
+.top_banner:hover .ball{
+    transform: rotate(2800deg);
+}
+
+
 
