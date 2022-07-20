@@ -61,6 +61,7 @@ h1{
 }
 .top_banner_image img{
     width: 100%;
+    height: 100%;
 }
 
 /* --------------------------- 
@@ -154,6 +155,10 @@ h3{
        font-weight: 100;
 }
 
+#view_all_button{
+    visibility: hidden;
+}
+
 
 /*-----------------------
      Footer Section Style
@@ -206,4 +211,63 @@ h2{
 .social_icons a{
     text-decoration: none;
     color: aliceblue;
+}
+
+
+/*--------------------------
+      Making Responsive Website
+ ---------------------------- */
+
+ /* For ipad Air & ipad Mini */
+
+@media screen and (min-width:689px) and (max-width:1200px) {
+      .ball{
+        display: none;
+      }
+
+      main{
+           display: flex;
+           flex-wrap: wrap;
+      }
+      nav{
+        display: flex;
+        flex-direction: row;
+        height: 70%;
+        width: 90%;
+        margin-bottom: 40px;
+      }
+      .navigation_items a{
+          height: 53px;
+          width:160.53px;
+      }
+      .blogs{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 24px;
+        margin-left: 24px;
+    }
+    #last_article{
+        display: none;
+    }
+
+    #view_all_button{
+        visibility: visible;
+    }
+    #view_all_button button{
+        text-align: center;
+    }
+    .brand_name{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .footer_items{
+        margin-left: 90px;
+    }
+    .social_icons{
+        margin-top: 65px;
+    }
+
+    
+
 }
