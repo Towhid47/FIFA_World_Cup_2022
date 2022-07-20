@@ -91,12 +91,12 @@ nav{
 }
 
 .navigation_items{
-        background-color: #ffff;
+        
         margin: 30px 30px;
-        display: inline-block;
-        padding: 14px 5px;
+        display: flex;
+        flex-direction: column;
+        
         border: none;
-        border-radius: 10px;
         text-align:center;
 }
 .navigation_items a{
@@ -104,9 +104,14 @@ nav{
     font-size: 24px;
     font-weight: 800;    
     color: black;
+    background-color: white;
+    padding: 14px 5px;
+    border-radius: 10px;
+
+
 }
 
-.navigation_items:hover{
+.navigation_items>a:hover{
      background-color: rgba(223, 17, 17, 0.667);
 }
 
