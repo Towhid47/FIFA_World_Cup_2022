@@ -70,7 +70,7 @@ h1{
 .ball{
     position: absolute;
     left: 800px;
-    bottom: 350px;
+    bottom: 300px;
     transition: transform 5s linear;
 }
 .top_banner:hover .ball{
