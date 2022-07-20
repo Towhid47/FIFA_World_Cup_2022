@@ -1,9 +1,8 @@
 /* Groups Section Style  */
-
 .groups{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    gap: 24px;
+    gap: 28px;
     margin-left: 24px;
 }
 
