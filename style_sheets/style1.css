@@ -27,6 +27,7 @@ button:hover{
 header{
     display:flex;
     justify-content: center;
+    margin-bottom: 131px;
 }
 
 .top_banner{
@@ -74,5 +75,67 @@ header{
     transform: rotate(2800deg);
 }
 
+/* navigation style */
+nav{
+    height: 370px;
+    width: 312px;
+    background-color: #161616;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    border-radius: 13px;
+}
+
+.navigation_items{
+        background-color: #ffff;
+        margin: 30px 30px;
+        display: inline-block;
+        padding: 14px 5px;
+        border: none;
+        border-radius: 10px;
+        text-align:center;
+}
+.navigation_items a{
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 800;    
+    color: black;
+}
+
+.navigation_items:hover{
+     background-color: rgba(223, 17, 17, 0.667);
+}
 
 
+/* grid layout */
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    font-size: 18px;
+}
+
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 24px;
+    margin-left: 24px;
+}
+
+.blog{
+    border: 2px solid black;
+    border-radius: 10px;
+    width:312px;
+    height: 362px;
+}
+.blog_details{
+    margin: 0px 20px;
+    text-align: justify;
+}
+
+.blog_details button{
+       margin: 2px;
+}
